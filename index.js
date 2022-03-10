@@ -12,4 +12,9 @@ app.get("/about",(req,res)=>{
 
 })
 
+app.get("/carer",(req,res)=>{
+    res.send("<h1>Career NODE APP</h1>")
+
+})
+
 app.listen(3000);
